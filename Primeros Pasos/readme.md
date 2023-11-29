@@ -42,7 +42,7 @@ LangChain tiene una amplia gama de casos de uso en el desarrollo de aplicaciones
 * LangServe: Libreria para despliegue de api REST
 * LangSmith: Una plataforma para desarrolladores que permite depurar, probar, evaluar y supervisar.
 
-![Arquitectura](https://python.langchain.com/assets/images/langchain_stack-7568bff0848b6ff94a66aff96d074da5.svg)
+![Infraestructura](./Doc/langchain_stack.jpg)
 
 ## [Infraestructura](https://python.langchain.com/docs/integrations/components)
 
