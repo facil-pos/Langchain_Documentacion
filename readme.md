@@ -35,30 +35,28 @@ A continuacion encontraras cursos practicos para el que aprendar langchain desde
    3. Aprender a instalar LangChain y configurar el entorno de desarrollo necesario.
    4.  Conocer los requisitos de hardware y software para ejecutar LangChain de manera eficiente.
 
-3. [Uso de modelos de lenguaje](./Casos%20de%20uso/readme.md):
+2. [Uso de modelos de lenguaje](./Casos%20de%20uso/readme.md):
    1. Conceptos utiles como las chains o cadenas, prompt y promts templates.
    2. Aprender a cargar y utilizar modelos de lenguaje para tareas como generación de texto, traducción, resumen, entre otros.
+   3. Dominar la creación de cadenas y agentes en LangChain para construir flujos de trabajo estructurados y automatizados.
+   4. Aprender a utilizar herramientas como prompts, memoria y callbacks para mejorar el rendimiento y la interacción de los agentes.
 
-4. Desarrollo de embeddings, cadenas y agentes:
+3. Pinecone
    1. Embeddings 
-   1. Dominar la creación de cadenas y agentes en LangChain para construir flujos de trabajo estructurados y automatizados.
-   2. Aprender a utilizar herramientas como prompts, memoria y callbacks para mejorar el rendimiento y la interacción de los agentes.
+   2. Què es una base de datos vecotrial?
+   3. Inicialización de Pinecone
+   4. Creación y eliminacion de un índice
+   5. Carga, Busqueda y Eliminacion de vectores
 
-5. Pinecone
-   1. Què es una base de datos vecotrial?
-   2. Inicialización de Pinecone
-   3. Creación y eliminacion de un índice
-   4. Carga, Busqueda y Eliminacion de vectores
-
-5. Integración de datos y fuentes externas:
+4. Integración de datos y fuentes externas:
    1. Explorar cómo integrar datos externos en las aplicaciones de LangChain.
    2. Aprender a cargar, consultar y actualizar datos específicos de la aplicación para mejorar la generación de respuestas y la toma de decisiones.
 
-6. Optimización y ajuste de modelos:
+5. Optimización y ajuste de modelos:
    1. Estudiar técnicas de optimización y ajuste de modelos de lenguaje para mejorar su rendimiento y adaptarlos a tareas específicas.
    2. Aprender a ajustar hiperparámetros, controlar la temperatura y aplicar técnicas de generación de texto más avanzadas.
 
-7. Prácticas recomendadas y casos de uso:
+6. Prácticas recomendadas y casos de uso:
    1. Explorar casos de uso comunes de LangChain, como chatbots, asistentes personales, preguntas y respuestas, entre otros.
    2. Estudiar las mejores prácticas para desarrollar aplicaciones efectivas y de alto rendimiento utilizando LangChain.
 
