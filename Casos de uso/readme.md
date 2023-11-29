@@ -53,3 +53,5 @@ La idea central de los agentes es utilizar un modelo de lenguaje para elegir una
 [Tools | 🦜️🔗 Langchain](https://python.langchain.com/docs/integrations/tools/).
 
 ### Material de estudio
+
+[Agentes.ipynb](./Agentes.ipynb)
