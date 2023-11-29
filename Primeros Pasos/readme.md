@@ -44,7 +44,7 @@ LangChain tiene una amplia gama de casos de uso en el desarrollo de aplicaciones
 
 ![Infraestructura](./Doc/langchain_stack.jpg)
 
-## [Infraestructura](https://python.langchain.com/docs/integrations/components)
+## [Componentes](https://python.langchain.com/docs/integrations/components)
 
 En LangChain, los componentes son abstracciones que permiten trabajar con modelos de lenguaje y se utilizan como bloques de construcción modulares en el desarrollo de aplicaciones. Estos componentes son fáciles de usar y se pueden personalizar según las necesidades específicas de cada aplicación. Algunos ejemplos de componentes en LangChain son:
 
