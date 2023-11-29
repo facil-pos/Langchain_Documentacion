@@ -35,7 +35,7 @@ A continuacion encontraras cursos practicos para el que aprendar langchain desde
    3. Aprender a instalar LangChain y configurar el entorno de desarrollo necesario.
    4.  Conocer los requisitos de hardware y software para ejecutar LangChain de manera eficiente.
 
-3. Uso de modelos de lenguaje:
+3. [Uso de modelos de lenguaje](./Casos%20de%20uso/readme.md):
    1. Conceptos utiles como las chains o cadenas, prompt y promts templates.
    2. Aprender a cargar y utilizar modelos de lenguaje para tareas como generación de texto, traducción, resumen, entre otros.
 
