@@ -31,12 +31,13 @@ A continuacion encontraras cursos practicos para el que aprendar langchain desde
 
 1. [Conceptos básicos de LangChain](./Primeros%20Pasos/readme.md):
    1. Entender los principios fundamentales de LangChain y cómo se utiliza para desarrollar aplicaciones basadas en modelos de lenguaje.
-   2. Familiarizarse con los módulos y componentes principales de LangChain, como modelos, cadenas, agentes y memoria.
+   2. Familiarizarse con los módulos y componentes principales de LangChain, como modelos.
    3. Aprender a instalar LangChain y configurar el entorno de desarrollo necesario.
    4.  Conocer los requisitos de hardware y software para ejecutar LangChain de manera eficiente.
 
 3. Uso de modelos de lenguaje:
-   1. Aprender a cargar y utilizar modelos de lenguaje para tareas como generación de texto, traducción, resumen, entre otros.
+   1. Conceptos utiles como las chains o cadenas, prompt y promts templates.
+   2. Aprender a cargar y utilizar modelos de lenguaje para tareas como generación de texto, traducción, resumen, entre otros.
 
 4. Desarrollo de embeddings, cadenas y agentes:
    1. Embeddings 
