@@ -2,6 +2,8 @@
 
 Aprender a cargar y utilizar modelos de lenguaje para tareas como generación de texto, traducción, resumen, entre otros.
 
+Encada uno de los siguientes conceptos se propocionara de un ejemplo practico donde se plantearan casos de usos para cada uno de los temas.
+
 # Conceptos necesarios
 
 ## Prompt
@@ -55,3 +57,37 @@ La idea central de los agentes es utilizar un modelo de lenguaje para elegir una
 ### Material de estudio
 
 [Agentes.ipynb](./Agentes.ipynb)
+
+## Memoria o Memory 
+
+Un componente esencial de una conversación es poder referirse a la información introducida anteriormente en la conversación. Como mínimo, un sistema conversacional debería ser capaz de acceder directamente a alguna ventana de mensajes pasados.
+
+A esta capacidad de almacenar información sobre interacciones pasadas la llamamos "memoria". LangChain proporciona muchas utilidades para agregar memoria a un sistema. Estas utilidades se pueden utilizar por sí solas o incorporarse sin problemas a una chain.
+
+### Tipos de memoria
+
+Hay muchos tipos diferentes de memoria. Cada uno tiene sus propios parámetros, sus propios tipos de valor devuelto y es útil en diferentes escenarios.
+
+* [``ConversationBufferMemory``](https://python.langchain.com/docs/modules/memory/types/buffer): Almacena los mensajes de chat en una lista en memoria. Puede devolver los mensajes como una cadena concatenada o como una lista de objetos ``ChatMessage``.
+
+* [``ConversationBufferWindowMemory``](https://python.langchain.com/docs/modules/memory/types/buffer_window): Esto puede resultar útil para mantener una ventana deslizante de las interacciones más recientes, de modo que el búfer no crezca demasiado.
+
+* [``Entity``](https://python.langchain.com/docs/modules/memory/types/entity_summary_memory): La memoria de entidad recuerda hechos dados sobre entidades específicas en una conversación (Una entidad en una conversacion hace referencia a algo o alguien).
+
+* [``Conversation Knowledge Graph``](https://python.langchain.com/docs/modules/memory/types/kg):  Este tipo de memoria utiliza grafos para recrear una memoria.
+
+* [``Conversation Summary``](https://python.langchain.com/docs/modules/memory/types/summary): Este tipo de memoria crea un resumen de la conversación a lo largo del tiempo.
+
+* [``Conversation Summary Buffer``](https://python.langchain.com/docs/modules/memory/types/summary_buffer): Mantiene un buffer de interacciones recientes en la memoria, pero en lugar de simplemente eliminar por completo las interacciones antiguas, las compila en un resumen y usa ambas, utiliza la longitud del token en lugar del número de interacciones para determinar cuándo eliminar las interacciones..
+
+* [``Conversation Token Buffer``](https://python.langchain.com/docs/modules/memory/types/token_buffer) Mantiene un búfer de interacciones recientes en la memoria y utiliza la longitud del token en lugar del número de interacciones para determinar cuándo eliminar las interacciones.
+
+* [Backed by a Vector Store](https://python.langchain.com/docs/modules/memory/types/vectorstore_retriever_memory): VectorStoreRetrieverMemory almacena recuerdos en un almacén de vectores y consulta los documentos más "destacados" cada vez que se llama.
+
+#### Recursos
+
+[Memory | 🦜️🔗 Langchain](https://python.langchain.com/docs/modules/memory/)
+
+### Material de estudio
+
+[Memoria.ipynb](./Memoria.ipynb)
