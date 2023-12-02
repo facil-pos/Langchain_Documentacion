@@ -1,3 +1,9 @@
+# Recursos
+
+[Pinecon](https://www.pinecone.io/learn/vector-database/)
+
+[AWS Que son las bases de datos vectoriales](https://aws.amazon.com/es/what-is/vector-databases/#:~:text=Las%20bases%20de%20datos%20vectoriales%20permiten%20a%20los%20desarrolladores%20innovar,impulsadas%20por%20la%20b%C3%BAsqueda%20vectorial.)
+
 # Pinecone
 
 ## Embeddings
@@ -35,3 +41,33 @@ Para crear un embeddings tenemos que hacer uso de un motor para crearlos, en est
 [puigalex/GPT3 (github.com)](https://github.com/puigalex/GPT3)
 
 [Aprende sobre Embeddings de OpenAI - YouTube](https://www.youtube.com/watch?v=-XVkdIdli0I&t=902s)
+
+## Bases de datos vectoriales
+
+Las bases de datos vectoriales se utilizan normalmente para impulsar casos de uso de búsquedas vectoriales, como la búsqueda visual, semántica y multimodal. Más recientemente, se han combinado con modelos de texto de inteligencia artificial (IA) generativa para crear agentes inteligentes que proporcionan experiencias de búsqueda conversacional. También pueden evitar que los modelos de IA generativa tengan alucinaciones, lo que puede provocar que los chatbots proporcionen respuestas no fácticas pero creíbles.
+
+Las bases de datos vectoriales tienen las capacidades de una base de datos tradicional y la especialización de tratar embeddings vectoriales, de la que carecen las bases de datos escalares tradicionales.
+
+Con una base de datos vectorial, podemos añadir funciones avanzadas a nuestras IA, como recuperación de información semántica, memoria a largo plazo, etc. El diagrama siguiente nos permite comprender mejor el papel de las bases de datos vectoriales en este tipo de aplicaciones.
+
+## Funcionamiento de pinecone
+
+![Diagrama de funcionamiento](./Doc/DbVectorial.png)
+
+
+* En primer lugar, utilizamos el modelo de embeddings para crear embeddings vectoriales del contenido que queremos indexar.
+
+* Los embeddings vectorial se inserta en la base de datos vectorial, con alguna referencia al contenido original a partir del cual se creó la incrustación.
+
+* Cuando la aplicación realiza una consulta, utilizamos el mismo modelo de embeddings para crear embeddings para la consulta y las utilizamos para buscar embeddings vectoriales similares en la base de datos. Como ya se ha dicho, esos embeddings similares se asocian al contenido original que se utilizó para crearlas.
+
+## Beneficios
+
+Ofrece muchos beneficos, pero los más llamativos son
+
+* ``Almacenamiento y filtrado de metadatos``: Las bases de datos vectoriales pueden almacenar metadatos asociados a cada entrada vectorial. Los usuarios pueden consultar la base de datos utilizando filtros de metadatos adicionales para realizar consultas más precisas.
+
+* ``Escalabilidad``: Las bases de datos vectoriales están diseñadas para escalar con crecientes volúmenes de datos y demandas de los usuarios, proporcionando un mejor soporte para el procesamiento distribuido y paralelo.
+
+* ``Integración en el ecosistema``: permite una fácil integración con otras herramientas relacionadas con la IA como LangChain, LlamaIndex, los plugins de ChatGPT y otros ecosistemas.
+

@@ -41,7 +41,7 @@ A continuacion encontraras cursos practicos para el que aprendar langchain desde
    3. Dominar la creación de cadenas y agentes en LangChain para construir flujos de trabajo estructurados y automatizados.
    4. Aprender a utilizar herramientas como prompts, memoria y callbacks para mejorar el rendimiento y la interacción de los agentes.
 
-3. Pinecone
+3. [Pinecone](./Pinecone/readme.md)
    1. Embeddings 
    2. Què es una base de datos vecotrial?
    3. Inicialización de Pinecone
