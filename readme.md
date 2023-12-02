@@ -48,15 +48,15 @@ A continuacion encontraras cursos practicos para el que aprendar langchain desde
    4. Creación y eliminacion de un índice
    5. Carga, Busqueda y Eliminacion de vectores
 
-4. Integración de datos y fuentes externas:
+4. [Integración de datos y fuentes externas](./QnA/readme.md):
    1. Explorar cómo integrar datos externos en las aplicaciones de LangChain.
    2. Aprender a cargar, consultar y actualizar datos específicos de la aplicación para mejorar la generación de respuestas y la toma de decisiones.
+   3. Aplicación de QnA (Question and Answer) en base a un documento como contexto.
 
-5. Optimización y ajuste de modelos:
-   1. Estudiar técnicas de optimización y ajuste de modelos de lenguaje para mejorar su rendimiento y adaptarlos a tareas específicas.
-   2. Aprender a ajustar hiperparámetros, controlar la temperatura y aplicar técnicas de generación de texto más avanzadas.
+# Prácticas recomendadas y casos de uso:
 
-6. Prácticas recomendadas y casos de uso:
-   1. Explorar casos de uso comunes de LangChain, como chatbots, asistentes personales, preguntas y respuestas, entre otros.
-   2. Estudiar las mejores prácticas para desarrollar aplicaciones efectivas y de alto rendimiento utilizando LangChain.
+   * Estudiar técnicas de optimización y ajuste de modelos de lenguaje para mejorar su rendimiento y adaptarlos a tareas específicas.
+   * Aprender a ajustar hiperparámetros, controlar la temperatura y aplicar técnicas de generación de texto más avanzadas.
+   * Explorar casos de uso comunes de LangChain, como chatbots, asistentes personales, preguntas y respuestas, entre otros.
+   * Estudiar las mejores prácticas para desarrollar aplicaciones efectivas y de alto rendimiento utilizando LangChain.
 
