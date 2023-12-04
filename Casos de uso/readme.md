@@ -22,7 +22,7 @@ Tenemos como caso de uso un traductor automatico, nuestro Prompt seria algo como
 
 ### Material de estudio
 
-* [Prompts.ipynb](.\Prompts.ipynb)
+* [Prompts.ipynb](./Prompts.ipynb)
 
 ## [Chains o cadenas](https://python.langchain.com/docs/modules/chains/)
 
@@ -32,7 +32,7 @@ Una chain en Langchain es una secuencia de llamadas a componentes o modelos de l
 
 ### Material de estudio
 
-* [Chains.ipynb](.\Chains.ipynb)
+* [Chains.ipynb](./Chains.ipynb)
 
 ## Agentes
 

@@ -16,4 +16,4 @@ Un QnA o Question and Answer es un sistema de procesamiento de lenguaje natural 
 
 ## Material
 
-[QnA](QnA.ipynb)
+[QnA](./QnA.ipynb)
