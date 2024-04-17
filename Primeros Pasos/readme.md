@@ -48,9 +48,18 @@ LangChain tiene una amplia gama de casos de uso en el desarrollo de aplicaciones
 
 En LangChain, los componentes son abstracciones que permiten trabajar con modelos de lenguaje y se utilizan como bloques de construcción modulares en el desarrollo de aplicaciones. Estos componentes son fáciles de usar y se pueden personalizar según las necesidades específicas de cada aplicación. Algunos ejemplos de componentes en LangChain son:
 
-- Model I/O (Entrada/Salida de Modelo): Proporciona interfaces para interactuar con modelos de lenguaje, como cargar y guardar modelos, realizar inferencias y ajustar hiperparámetros.
-- Data connection (Conexion de Datos): Permite conectar la inferfaz con los dato sespecificos de la aplicación. Facilita la conexion entre LangChain y las fuentes de datos externas, permitiendo qeu los datos se pasen entre ambos.
+- Model I/O (Entrada/Salida de Modelo): 
+  * Prompts: Formateo de entradas para guiar la generación de LLMs.
+  * Modelos de chat: Interfaces para modelos que usan mensajes de chat como entrada y salida.
+  * LLMs: Interfaces para modelos que usan texto plano como entrada y salida.
+- Data connection (Conexion de Datos): 
+  * Cargadores de documentos: Cargan datos de una fuente como Documentos para su posterior procesamiento.
+  * Divisores de texto: Transforman documentos fuente para adaptarlos mejor a tu aplicación.
+  * Modelos de incrustación: Crean representaciones vectoriales de un texto, permitiendo búsquedas en lenguaje natural.
+  * Vectorstores: Interfaces para bases de datos especializadas que pueden buscar en datos no estructurados con lenguaje natural.
+  * Recuperadores: Interfaces más genéricas que devuelven documentos dados una consulta no estructurada.
 - Chains (cadenas): Son secuencias estructuradas de llamadas que se pueden construir utilizando componentes de LangChain. Estas cadenas definen el flujo de trabajo de la aplicación y cómo se utilizan los modelos de lenguaje y otros componentes.
+- Herramientas (tools): Interfaces que permiten a un LLM interactuar con sistemas externos.
 - Agents (Agentes): Este componente permite que las cadenas elijan qué herramientas usar dadas directivas de alto nivel. FAcilita la toma de decisines sobre qeu acciones tomar o que herramientas usar en fuancion de las necesidades de la aplicacion.
 - Memory (memoria): Permite persistir el estado de la aplicacion entre ejecuciones de una cadena. Facilita la gestion de la memoria, permitiendo que los datos se almacenen y reucperen entre diferentes ejecuciones de una cadena. Facilita la gestion de la memoria, permitiendo que los datos se almacenen y recuperen entre diferentes ejecuciones de la aplicacion.
 - Callbacks (Retrollamadas): Permite registrar y transcribir los pasos intermedios de cualquier cadena. Facilita la monitorizacion y el registro de las actividades de la aplicacion, permitiendo que se puedan realizar seguimientos y analisis detallados de las operaciones de la aplicacion.
@@ -63,7 +72,7 @@ Langchain nospermite tener varias forma de instalarlo
 * pip
 
   ```bash
-  pip install langchain
+  pip install langchain langchain-core langchain-community
   ```
 * conda
 

@@ -7,6 +7,8 @@ La siguiente documentacion pretende ensañar langchain desde 0 ofreciendo una do
 
 ## Recursos
 
+[Guía de Ingeniería de Prompt | Prompt Engineering Guide (promptingguide.ai)](https://www.promptingguide.ai/es)
+
 [Introducción a LangChain: EL puente entre GPT4 y tus Datos - Potencial y Aplicaciones | E01 - YouTube](https://www.youtube.com/watch?v=uJqg36XNUXM&list=PL7HAy5R0ehQWCPPv0GslmkiWCfb9oeBeZ&index=1)
 
 [Introduction | 🦜️🔗 Langchain](https://python.langchain.com/docs/get_started/introduction)
