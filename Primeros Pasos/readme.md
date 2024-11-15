@@ -11,7 +11,7 @@ Aqui conoceras sobre los principos de fundamentales de langchain y te familiariz
 
 # Introduccion a Lanchaing
 
-Langchain es un framework que nos premite desarrollar aplicacion usando LLM como GPT-4, Llama, entre otros, permite que nuestras aplicaciones:
+Langchain es un framework que nos premite desarrollar aplicacion usando LLM como GPT-4, Llama, Gemini, entre otros, permite que nuestras aplicaciones:
 
 * Contexto consciente: LangChain permite que las aplicaciones basadas en modelos de lenguaje estén conscientes del contexto. Esto implica conectar un modelo de lenguaje con fuentes de contexto, como instrucciones de entrada, ejemplos de pocos disparos y contenido relevante, para mejorar la calidad y relevancia de las respuestas generadas.
 
@@ -80,35 +80,14 @@ Langchain nospermite tener varias forma de instalarlo
   conda install langchain -c conda-forge
   ```
 
-### Instalacion LangServe
+# Familiarizacion con los modelos de Gemini
 
-```bash
-pip install "langserve[all]"
-```
+Como conseguir los modelos de Gemini
 
-### LangChain CLI
+1. Nos vamos a la pagina de (https://aistudio.google.com/)
+2. Vamos a obtener la API key
+3. Podemos ver los diferente modelos que podemos usar en la seccion de create new prompt en el lateral encontratemos un selector de modelos en la esquina superior un boton que dice Get code con el podremo obtener el codigo para usar la api
 
-```bash
-pip install langchain-cli
-```
-
-### LangSmith
-
-```
-pip install langsmith
-```
-
-# Familiarizacion con los modelos de OpenIA
-
-Como conseguir los modelos de OpenIA
-
-1. Nos vamos a la pagina de (https://openai.com/pricing)
-2. Developers
-3. Documentacion
-4. Models que esta a la izquierda
-5. Tocamos donde dice GPT-3.5
-6. LATEST MODEL mostrará todos los modelos como el de 'text-davinci-003'
-
-Ejercicio practico para conocer los fundamento de Langchain con OpenIA
+Ejercicio practico para conocer los fundamento de Langchain con Gemini
 
 * [Fundamentos.ipynb](./Fundamentos.ipynb)
